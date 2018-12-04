@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    xmlns:effects="clr-namespace:XFDynamicSelectedTabTintColor.Effects"
+    xmlns:views="clr-namespace:XFDynamicSelectedTabTintColor.Views"
+    x:Class="XFDynamicSelectedTabTintColor.Views.MainPage">
+    <views:RedTabView Title="Red Tab" Icon="ic_computer" />
+    <views:GreenTabView Title="Green Tab" Icon="ic_computer" />
+    <views:PurpleTabView Title="Purple Tab" Icon="ic_computer" />
+</TabbedPage>
